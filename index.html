@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Bajkowy Domek - Kontakt</title>
+</head>
+<body>
+    <nav>
+        <div id="navigation_menu">
+            <a href="index.html"><img id="logo_image" src="src/logo2.png" alt="logo"></a>
+
+            <ol>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="onas.html">O nas</a></li>
+                <li><a href="cennik.html">Cennik</a></li>
+                <li><a href="dopobrania.html">Do pobrania</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ol>
+
+            <img onclick="showSidebar()" class="navigation_menu-dropdown" src="/src//images/nav_dropdown.png">
+
+        </div>
+    </nav>
+    <div id="navigation_menu-side-menu">
+        <h2  onclick="closeSidebar()" class="navigation_menu-side-menu-close" >x</h2>
+        <ol>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="onas.html">O nas</a></li>
+            <li><a href="cennik.html">Cennik</a></li>
+            <li><a href="dopobrania.html">Do pobrania</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ol>
+    </div>
+
+    <main>
+        <div class="main-container">
+            <div class="main-container-image">
+                <img src="./src/images/m_image.jpg"/>
+            </div>
+            <div class="main-container-text">  
+                <div class="main-container-text-above-box">
+                    <div class="main-container-text-above-box-text">
+                        <h5>Żłobek Bajkowy Domek o.I</h5>
+                        <h5>ul. Królewny Śnieżki 16, Poznań</h5>
+                    </div>
+                    <div class="main-container-text-above-box-text">
+                        <h5>Żłobek Bajkowy Domek o.II </h5>
+                        <h5>ul. listopadowa 28, Poznań</h5>
+                    </div>
+                </div>
+
+                <h3>ŻŁOBEK BAJKOWY DOMEK</h3>
+                <p>Zapraszamy do Bajkowego Domku - miejsca, gdzie rozwój i dobro twojego dziecka jest dla nas najważniejsze</p>
+                <div class="main-container-text-buttons">
+                    <a href="./onas.html"><button class="main-container-text-readmore-button">Czytaj dalej</button></a>
+                    <a href="https://nabor.pcss.pl/poznan/zlobek/oferta" target="_blank"><button class="main-container-text-recruatation-button">Rekrutacja</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="values-box">
+            <h3>Wartości, które nas prowadzą</h3>
+            <p>Tworzymy ciepłe i bezpieczne środowisko, w którym każde dziecko czuje się akceptowane. Skupiamy się na rozwoju emocjonalnym, intelektualnym i społecznym, wspierając ciekawość i kreatywność. Współpracujemy z rodzicami, aby zapewnić harmonijny rozwój, ucząc przez zabawę i budując solidne podstawy na przyszłość.</p>
+            <div class="values-box-grid-box">
+                <div class="values-box-grid-box-tab values-box-grid-box-tab-1">  
+                    <div class="values-box-grid-box-tab-image">
+                        <img src="./src/images/plane.jpg" alt="plane image"/>
+                    </div>
+                    <div class="values-box-grid-box-tab-text">
+                        <h4>Bezpieczeństwo</h4>
+                        <p>Zapewniamy bezpieczne i przyjazne środowisko, gdzie każde dziecko czuje się chronione i akceptowane.</p>
+                    </div>
+                </div>
+
+                <div class="values-box-grid-box-tab values-box-grid-box-tab-2"> 
+                    <div class="values-box-grid-box-tab-image">
+                        <img src="./src/images/plane.jpg" alt="plane image"/>
+                    </div> 
+                    <div class="values-box-grid-box-tab-text">
+                        <h4>Indywidualne podejście</h4>
+                        <p>Dostosowujemy opiekę i naukę do unikalnych potrzeb i możliwości każdego dziecka, wspierając ich harmonijny rozwój.</p>
+                    </div>
+                </div>
+                <div class="values-box-grid-box-tab values-box-grid-box-tab-3">  
+                    <div class="values-box-grid-box-tab-image">
+                        <img src="./src/images/plane.jpg" alt="plane image"/>
+                    </div>
+                    <div class="values-box-grid-box-tab-text">
+                        <h4>Wspólnota</h4>
+                        <p>Uczymy dzieci współdziałania, dzielenia się i budowania zdrowych relacji w grupie.</p>
+                    </div>
+                </div>
+                <div class="values-box-grid-box-tab values-box-grid-box-tab-4"> 
+                    <div class="values-box-grid-box-tab-image">
+                        <img src="./src/images/plane.jpg" alt="plane image"/>
+                    </div> 
+                    <div class="values-box-grid-box-tab-text">
+                        <h4>Kreatywność</h4>
+                        <p>Rozwijamy twórcze myślenie poprzez różnorodne zajęcia artystyczne i eksperymenty.</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <div class="why-us-box">
+            <section class="why-us">
+                <div class="why-us-desc">
+                    <h3>Dlaczego warto nas wybrać</h3>
+                    <p>Wybierając nasz żłobek, zapewniasz swojemu dziecku opiekę na najwyższym poziomie. Nasz doświadczony zespół wychowawców dba o indywidualne podejście do każdego malucha, dostosowując zajęcia do jego potrzeb i etapu rozwoju. Oferujemy różnorodne zajęcia edukacyjne, artystyczne i ruchowe, które stymulują rozwój poznawczy i społeczny dzieci.</p>
+                    <p>Nasze nowoczesne i bezpieczne przestrzenie są przyjazne dzieciom, a starannie opracowany plan dnia zapewnia równowagę między nauką, zabawą a odpoczynkiem. Współpracujemy również z rodzicami, aby wspierać rozwój ich dzieci na każdym etapie. W naszym żłobku panuje ciepła, domowa atmosfera, która pomaga dzieciom czuć się bezpiecznie i pewnie.</p>
+                    <p>Wybierając nas, inwestujesz w radosne i harmonijne dzieciństwo swojego dziecka.</p>
+                </div>
+                <div class="why-us-image-box">
+                    <img src="./src/images/kids_playing.jpg" alt="kids-paying"/>
+                </div>
+            </section>
+        </div>
+
+        <div class="place-box">
+            <h3>Nasze placówki to</h3>
+            <div class="place-box-cards">
+                <div class="place-box-cards-tab">
+                    <img src="./src/images/town_icon.png"/>
+                    <h4>Dogodna lokalizacja</h4>
+                    <p>Nasze placówki znajdują się w sercu miasta, dzięki czemu dojazd nie jest problemem.</p>
+                </div>
+                <div class="place-box-cards-tab">
+                    <img src="./src/images/playground_icon.png"/>
+                    <h4>Pełne wyposażenie</h4>
+                    <p>Posiadamy świetnie zaopatrzone sale. Na terenie placówek znajduje się również plac zabaw. Cały dzień wypełniony jest różnorodnymi zajęciami.</p>
+                </div>
+                <div class="place-box-cards-tab">
+                    <img src="./src/images/plate_icon.png"/>
+                    <h4>Pełnowartościowe posiłki</h4>
+                    <p>Kładziemy duży nacisk na zdrowe odżywianie, które jest dostosowane do potrzeb i rozwoju dzieci.</p>
+                </div>
+                <div class="place-box-cards-tab">
+                    <img src="./src/images/babysitter_icon.png"/>
+                    <h4>Wspaniała kadra</h4>
+                    <p>Nasz zespół to wykfalifikowani i doświadczeni spacjaliści z wykształceniem pedagogicznym. Pełni pasji do pracy i dalszego rozwoju.</p>
+                </div>
+            </div>
+        </div>  
+
+        <section class="reviews">
+            <h3>Co mówią o nas rodzice maluszków</h3>
+            <p class="reviews-caption">Poniżej znajdziesz  szczere i autentyczne wypowiedzi, które ukazują, jak nasze podejście do edukacji i opieki odbierane jest przez rodziców dzieci. Każda opinia to dowód na to, że nasze zaangażowanie i troska przynoszą wymierne efekty. Dobre kontakty i zrozumienie z rodzicami jest dla nas bardzo ważne.</p>
+            <div class="reviews-box">
+                <div class="reviews-box-review-tab">
+                    <div class="reviews-box-review-tab-info">
+                        <img src="/src/images/woman_icon.png"/>
+                        <div>
+                            <h3>Pani Ania</h3>
+                            <p>Mama Adasia</p>
+                            <div class="reviews-box-review-tab-info-star-box">
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <p> (5/5)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="reviews-box-review-tab-info-description">Wybór Żłobka Raj Maluszka był doskonałym wyborem do stawiania pierwszych kroków w kontaktach z rówieśnikami dla naszego syna. Żłobek kładzie bardzo duży nacisk na bezpieczeństwo, rozwój emocjonalny i fizyczny dzieci.</p>
+                </div>
+                <div class="reviews-box-review-tab">
+                    <div class="reviews-box-review-tab-info">
+                        <img src="/src/images/man_icon.png"/>
+                        <div>
+                            <h3>Pani Ania</h3>
+                            <p>Mama Adasia</p>
+                            <div class="reviews-box-review-tab-info-star-box">
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <p> (5/5)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="reviews-box-review-tab-info-description">Wybór Żłobka Raj Maluszka był doskonałym wyborem do stawiania pierwszych kroków w kontaktach z rówieśnikami dla naszego syna. Żłobek kładzie bardzo duży nacisk na bezpieczeństwo, rozwój emocjonalny i fizyczny dzieci.</p>
+                </div>
+                <div class="reviews-box-review-tab">
+                    <div class="reviews-box-review-tab-info">
+                        <img src="/src/images/woman_icon.png"/>
+                        <div>
+                            <h3>Pani Ania</h3>
+                            <p>Mama Adasia</p>
+                            <div class="reviews-box-review-tab-info-star-box">
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <img src="/src/images/star_rating_icon.png"/>
+                                <p> (5/5)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="reviews-box-review-tab-info-description" >Wybór Żłobka Raj Maluszka był doskonałym wyborem do stawiania pierwszych kroków w kontaktach z rówieśnikami dla naszego syna. Żłobek kładzie bardzo duży nacisk na bezpieczeństwo, rozwój emocjonalny i fizyczny dzieci.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="apply">
+            <h2>Rekrutacja do żłobka Bajkowy Domek</h2>
+            <p>Zapisy do żłobka odbywają się poprzez scentralizowany portal naboru organizowanego przez Miasto Poznań. Naciśnięcie poniższego przycisku, przeniesię Ciebie na stronę umożliwiającą zapisanie Twojego maluszka do Bajkowego Domku.</p>
+            <a href="https://nabor.pcss.pl/poznan/zlobek/oferta" target="_blank"><button>Zapisy</button></a>
+        </section>
+    </main>
+
+    <div class="line">
+        <img id="logo_image_down" src="src/logo2.png" alt="logo">
+    </div>
+
+    <footer>
+        
+        <div class="footer-left-section">
+            <h2>Szybki dostęp</h2>
+            <ol>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="onas.html">O nas</a></li>
+                <li><a href="cennik.html">Cennik</a></li>
+                <li><a href="dopobrania.html">Do pobrania</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ol>
+        </div>
+
+        <div class="footer-right-section">
+            <div class="footer-right-section-shape">
+                <img src="./src/images/phone_icon.png"/>
+                <p>+48 501 878 868</p>
+                <p>bajdom@onet.pl</p>
+                <img src="./src/images/facebook.png"/>
+            </div>
+
+            <p>Żłobek Bajkowy Domek &copy 2024 | Realizacja Hipolit Roszkowski</p>
+        </div>
+
+        
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

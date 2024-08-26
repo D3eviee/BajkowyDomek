@@ -1,0 +1,243 @@
+body{
+    background-color: #f8f8f8 ;
+    margin: 0!important;
+    font-family: "Roboto", sans-serif;
+}
+
+a:active{
+    color: #2C4C7B;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: #2C4C7B;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a{
+    color:#2C4C7B;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#logo_image{
+    width: 100px;
+    margin-top: 18px;
+}
+
+#logo_image:hover{
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    font-weight: 400;   
+    box-shadow: 0px 3px 10px  rgba(30, 30, 30, 0.6);
+    z-index: 100;
+}
+
+#navigation_menu ol{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigation_menu{
+    margin-left: 20%;
+    margin-right: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navigation_menu li{
+    box-sizing: border-box;
+    padding: 5px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#navigation_menu li:last-child{
+   border-bottom: 3px solid #FF6868;
+   font-weight: 500;   
+}
+
+
+#navigation_menuli:hover{
+    background-color: #E4E6E7;
+    cursor: pointer;
+}
+
+#fb_icon{
+    align-self: center;
+    padding-right: 100px;
+}
+
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+.page-title{
+    height: 45vh;
+    width: 100%;
+    position: relative;
+}
+
+.page-title img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page-title-img-tint{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.57;
+    top:0;
+}
+
+.page-title-text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page-title-text h1{
+    font-size: 48px;
+    color:#ffffff;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title-text h3{
+    font-size: 16px;
+    color:#ffffff;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 12px;
+}
+
+.contact-info{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.contact-info-item{
+    padding: 40px ;
+    box-sizing: border-box;
+    border-right: 1px solid #e3dfde;
+}
+
+.contact-info-item:last-child{
+    border-right:none;
+}
+
+.contact-info-item img{
+    display: block;
+    width: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+}
+
+.contact-info-item{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color:#2C4C7B;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    
+}
+
+.contact-info-item p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    color:#2C4C7B;
+    padding: 5px 0px;
+    margin: 0px;
+    text-shadow: 0px 0px 2px 0px #1a1e1d81;
+}
+
+.localization-box{
+    width: 60%;
+    color:#2C4C7B;
+    margin-top: 80px;
+    font-size: 17px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.localization-box h3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e3dfde; ;
+}
+
+.localization-box-maps{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.localization-box-maps iframe{
+    box-shadow: 0px 0px 2px 0px #1a1e1d81;
+}
+
+
+footer{
+    margin-top: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    padding:100px 0px;
+    background-color: #f6f4f5;
+    display: flex; 
+    justify-content: space-around;  
+}
+
+footer img{
+        width: 150px;
+        
+}
+
+.poznan-logo{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+
+}
